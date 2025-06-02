@@ -110,3 +110,43 @@ header > div {
   border: none;
 }
 
+#section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+  padding: 60px 20px;
+  position: relative;
+}
+
+#section2 > img {
+  position: absolute;
+  top: 40px;
+  width: 200px;
+  z-index: 1;
+}
+
+#section2 h2 {
+  background-color: rgba(255,204,53,.4);
+  transform: skew(9deg,0deg);
+  font-style: italic;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 30px;
+  margin: 40px 0 30px 0;
+  max-width: 900px;
+  line-height: 1.2;
+}
+
+#section2 h3 {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 650px;
+  margin: 0 0 50px 0;
+  line-height: 1.5;
+  color: #333;
+}
+
